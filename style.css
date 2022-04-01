@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+
+.navbar {
+    width: 100%;
+    height: 5.5em;
+    padding-left: 7em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #b49c84;
+}
+
+.logo {
+    width: 12em;
+    height: 2.8em;
+    margin: 1em 4em;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 271px;
+}
+
+.input-icon {
+    color: #525050;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 11em;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.scrollNav {
+    width: 100%;
+    height: 5em!important;
+    transition: 0.5s all;
+}
+
+.scrollLogo {
+    width: 10em!important;
+    height: 2.5em!important;
+    transition: 0.5s all;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8em 0 0 0;
+    padding: 0 14em;
+}
+
+.navbar-brand{
+    font-size: 0.8em;
+    margin: 0 0.5em;
+    padding: 0 0.2em;
+    color: black;
+}
+
+.input {
+    width: 12em;
+    height: 2em;
+    margin: 0 1em;
+    padding: 0 0.5em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.header .container-fluid {
+    width: 100%;
+    height: 95vh;
+    background-image: url(./assets/baby-girl-in-her-crib.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+.em {
+    font-family: 'Allura', cursive;
+    color: black;
+    font-weight: 500;
+    font-size: 1.7em;
+    padding: 19em;
+    display: flex;
+    justify-content: center;
+}
+
+.div1 .p{
+    width: 100%;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    padding: 1.6em 0 0 0;
+    background-color: #b49c84;
+    font-family: 'Alice', serif;
+    font-size: 1.3em;
+    color: white;
+}
+
+.p2 {
+    width: 100%;
+    font-family: 'Alice', serif;
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 0.5em;
+    border-bottom: 0.08em solid black;
+    border-bottom-width: 0.08em;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.card {
+    margin: 0 1.8em;
+    border: none;
+}
+
+.card-text {
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    text-align: left;
+}
+
+/* @media (max-width: 768px) {
+    .nav {
+      display: none;
+    }
+} */
+
+.container-fluid {
+    width: 100%;
+    height: 75vh;
+    background-image: linear-gradient(90deg,rgba(235,235,235,0) 0%,rgba(224,206,170,0.42) 70%),url(./assets/1366_2000.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.callto {
+    width: 35vh;
+    height: 30vh;
+    margin-top: 14em;
+    margin-left: 12em; 
+}
+
+.p3 {
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 150%;
+    color: #666;
+    line-height: 1.5em;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+}
+
+.h1 {
+    font-family: Open Sans,Arial,sans-serif;
+    color: black;
+    font-size: 300%;
+    font-weight: 700;
+}
+
+.btn {
+    font-family: Open Sans,Arial,sans-serif;
+    background-color: #959d93;
+    padding: 1em 1.25em;
+    border-radius: 50px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.btnjs {
+    opacity: 0;
+    transition: 1s all;
+}
+
+.mostrarIzda {
+    animation: mostrarIzda 1s;
+}
+
+@keyframes mostrarIzda {
+    0% {
+        transform: translateX(-50px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.cardjs {
+    opacity: 0;
+    transition: 1s ease all;
+}
+
+.mostrarcards {
+    animation: mostrarcards 2s;
+}
+
+.section1 {
+    height: 70vh;
+    background-color: #f7f7f7;
+}
+
+.div4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card2 {
+    margin-top: 12em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.card-body1 {
+    text-align: left;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+    
+}
+
+.card-body2 {
+    text-align: center;
+    margin-top: 3em;
+    padding: 0 1em;   
+}
+
+.card-body3 {
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+    
+}
+
+.card-text1 {
+    font-family: 'Alice',Georgia,"Times New Roman",serif!important;
+    font-size: 1.75em;
+}
+
+.card3 {
+    margin-top: 1.75em;
+    text-align: center;
+}
+
+.section .container-fluid {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(90deg,#264059 30%,rgba(38,64,89,0) 100%),url(./assets/informacion.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    color: white;
+}
+   
+.callToAction2 {
+    font-weight: 500;
+    text-align: left;
+    margin-top: 20em;
+    margin-left: 12em;
+}
+
+.footer {
+    width: 100%;
+    height: 5vh;
+    background-color: #171717;
+    text-align: center;
+    color: white;
+}
+
+.letra1 {
+    font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+    font-size: 25px;
+    line-height: 2em;
+}
+
+.letra2 {
+    font-family: Open Sans,Arial,sans-serif;
+    font-size: 17px;   
+}
+
+
+
+
+
+
+
+
+
+
+
